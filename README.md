@@ -26,10 +26,6 @@ The website contains information about my experience, skills, education, and fro
 
 - HTML
 - CSS
-- JavaScript basics
-- React
-- TypeScript
-- Tailwind CSS
 - Git
 
 ## Live Demo
@@ -40,9 +36,9 @@ The website contains information about my experience, skills, education, and fro
 
 Yuliia Pershina
 
-- GitHub: https://github.com/JuliyaPershina
-- LinkedIn: https://www.linkedin.com/in/juliya-pershina-021341281/
+- GitHub: [JuliyaPershina](https://github.com/JuliyaPershina)
+- LinkedIn: [JuliyaPershina](https://www.linkedin.com/in/juliya-pershina-021341281/)
 
 ## Project Status
 
-In progress 🚀
+Actively improving 🚀
