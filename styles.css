@@ -38,15 +38,22 @@ body {
 .resume {
   margin: 50px auto;
   border: 1px solid #f5f5f5;
-  box-shadow: 1px 1px 7px 7px #f5f5f5;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
   padding: 30px 0;
   max-width: 900px;
+  transition: 0.3s;
+  background-color: white;
 }
 
 .resume__block {
   border-bottom: 3px solid var(--border-color);
   padding-bottom: 30px;
   margin-bottom: 15px;
+}
+
+a:hover {
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 576px) {
@@ -102,6 +109,11 @@ body {
   text-decoration: none;
   display: flex;
   justify-content: start;
+  transition: 0.3s;
+}
+
+.contact-info__item:hover {
+  color: var(--text-decoration-color);
 }
 
 .contact-info__item:not(:last-child) {
@@ -265,5 +277,27 @@ body {
 }
 
 .additional-info__languages-item {
+  color: var(--secondary-text-color);
+}
+
+.project-links a {
+  color: var(--text-decoration-color);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.project-links a:hover {
+  text-decoration: underline;
+}
+
+body {
+  background-color: #fafafa;
+}
+
+footer.footer {
+  text-align: center;
+  /* padding: 4px 0; */
+  padding: 16px 0 8px;
+  font-size: 14px;
   color: var(--secondary-text-color);
 }
